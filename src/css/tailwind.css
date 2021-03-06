@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .li-style{
+     @apply px-4 py-8 font-semibold hover:border-indigo-200 hover:border-b-2 hover:pb-6 hover:cursor-pointer;
+  }
+}
+
+
+  @media (min-width: 0px) {
+    .sm\:li-style {
+        @apply px-0 py-1;
+    }
+  }
